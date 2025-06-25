@@ -13,7 +13,7 @@ from process_image_sam import process_image
 from process_image_seg_net import process_image_seg_net
 
 
-coco_image_dir = 'refcoco2/train2014'
+coco_image_dir = 'refcoco/train2014'
 refcoco_anns = 'annotations/refcoco/refs(unc).p'
 coco_anns = 'annotations/refcoco/instances.json'
 
